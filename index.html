@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +7,11 @@
     <title>Corretora de Seguros</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="script.js"></script>
+				
 </head>
 <body>
     <div class="container">
-        <div class="carrossel">
+        <div class="carrossel" id="img">
             <img class="img-fundo" src="imagens/caminhao.jpg" alt="">
             <img class="img-fundo" src="imagens/auto1.jpg" alt="">
             <img class="img-fundo" src="imagens/casa.png" alt="">
@@ -21,59 +21,84 @@
         
         <div class="header">
             <ul class="c-dropdown">
-               
                 <li class="c-dropdown_item">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mila Seguros </a>
+                    <a href="#" class="dropdown-toggle" >Mila Seguros ▼ </a>
                     <ul class="dropdown-menu">
-                        <li><a href="nossa-empresa.php">Conheça a Mila</a></li>
+                        <li><a href="">Conheça a Mila</a></li>
                       <!--  <li><a href="404.php">Nossa Estrutura</a></li> -->
-                        <li><a href="unidades.php">Unidades</a></li>
-                        <li><a href="seguradoras.php">Seguradoras</a></li>
+                        <li><a href="">Unidades</a></li>
+                        <li><a href="">Seguradoras</a></li>
                     </ul>
                 </li>
                 
                 <li class="c-dropdown_item">
-                    <a href="#" class="dropdown-toggle1" data-toggle="dropdown">Para você</a>
+                    <a href="#" class="dropdown-toggle1" >Para você ▼</a>
                     <ul class="dropdown-menu1">
-                        <li><a href="seguro-auto.php">Automóvel</a></li>
-                        <li><a href="seguro-residencial.php">Residencial</a></li>
-                        <li><a href="seguro-vida-individual.php">Vida Individual</a></li>
-                        <li><a href="seguro-viagem.php">Viagem</a></li>
-                        <li><a href="seguro-profissionais.php">Profissionais</a></li>
-                        <li><a href="seguro-fianca.php">Fiança Locatícia, <br> Financiamentos e <br> Consórcio</a></li>
-                        <li><a href="seguro-equipamentos.php">Equipamentos Portáteis</a></li>
+                        <li><a href="">Automóvel</a></li>
+                        <li><a href="">Residencial</a></li>
+                        <li><a href="">Vida Individual</a></li>
+                        <li><a href="">Viagem</a></li>
+                        <li><a href="">Profissionais</a></li>
+                        <li><a href="">Fiança Locatícia, <br> Financiamentos e <br> Consórcio</a></li>
+                        <li><a href="">Equipamentos Portáteis</a></li>
                     </ul>
                 </li>
                 
                 <li class="c-dropdown_item">
-                    <a href="#" class="dropdown-toggle2" data-toggle="dropdown">Para empresa</a>
+                    <a href="#" class="dropdown-toggle2">Para empresa ▼</a>
                     <ul class="dropdown-menu2">
-                        <li><a href="seguro-frota.php">Frota </a></li>
-                        <li><a href="seguro-empresarial.php">Empresarial </a></li>
-                        <li><a href="seguro-vida-global.php">Vida Global</a></li>	
-                        <li><a href="seguro-transporte.php">Transporte </a></li>
-                        <li><a href="seguro-rural.php">Agrícola / Rural </a></li>
-                        <li><a href="seguro-saude.php">Saúde e Odontológico </a></li>
-                        <li><a href="seguro-profissionais.php">Profissionais </a></li>
-                        <li><a href="seguro-condomio.php">Condomínios </a></li>
+                        <li><a href="">Frota </a></li>
+                        <li><a href="">Empresarial </a></li>
+                        <li><a href="">Vida Global</a></li>	
+                        <li><a href="">Transporte </a></li>
+                        <li><a href="">Agrícola / Rural </a></li>
+                        <li><a href="">Saúde e Odontológico </a></li>
+                        <li><a href="">Profissionais </a></li>
+                        <li><a href="">Condomínios </a></li>
                     </ul>
                 </li>
-                
-                
-                
                 <li class="c-dropdown_item">
-                    <a href="#" class="dropdown-toggle3" data-toggle="dropdown">Sinistros</a>
+                    <a href="#" class="dropdown-toggle3" >Sinistros ▼</a>
                     <ul class="dropdown-menu3">
-                        <li><a href="como_proceder.php">Como Proceder </a></li>
-                        <li><a href="assistencia24h.php">Assistência 24h</a></li>
-                        <li><a href="bo-online.php">B.O Online </a></li>
-
+                        <li><a href="">Como Proceder </a></li>
+                        <li><a href="">Assistência 24h</a></li>
+                        <li><a href="">B.O Online </a></li>
                     </ul>
                 </li>
-                <li class="c-dropdown_item"><a class="dropdown-toggle" href="fale-conosco.php">Fale Conosco</a></li>                        
-                <li><a href="formulario_completo.php"> <div id ="txtPisca" class="cssPisca" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div> </a></li>                        
-               
+                <li class="c-dropdown_item">
+                    <a class="dropdown-toggle" href="">Fale Conosco<a>
+                </li>                                  
             </ul>
         </div>
+
+    <div class="meio">
+        <div class="frase">
+            <h1 class="qual">Qual o tipo de seguro você procura?</h1>
+            <p class="aqui" >Aqui você encontra as melhores soluções <br> Escolha um seguro ou serviço abaixo</p>
+        </div>
+        <div>
+            <img src="imagens/recorte.png" alt="">
+        </div>
+    </div>
+    <div class="meio1">
+        <div class="frase1">
+            <h1 class="qual1">Principais Parceiros</h1>
+            <p class="aqui1" >Trabalhamos com as melhores seguradoras do mercado<br>Confira:</p>
+        </div>
+        <div>
+            <img src="imagens/parceiros.jpg" alt="">
+        </div>
+    </div>
+    <div class="meio2">
+        <div class="frase2">
+            <h1 class="qual2">Porque escolher a mila?</h1>
+            <p class="aqui2" >A Mila é uma das principais corretoras da região e oferece condições especiais e diferenciadas pra você ou pra sua empresa.</p>
+        </div>
+        <div>
+            
+        </div>
+    </div>
+        <script src="script.js"></script>
+        
 </body>
 </html>
