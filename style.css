@@ -31,12 +31,16 @@ body{
 /*------------------------------SLIDER----------------------------*/
 
 #mainSlider .carousel-inner, #mainSlider .carousel-item{
-    height: 50vh;
+    height: 490px;
     
 }
-
+/*@media (max-height:600px) {
+    #mainSlider .carousel-inner, #mainSlider .carousel-item{
+        height: 100vh;
+    }
+}*/
 #mainSlider .carousel-caption{
-    top: 45%;
+    top: 30%;
 }
 #mainSlider .carousel-caption h2{
     font-size: 3rem;
