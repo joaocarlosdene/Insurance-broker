@@ -12,11 +12,21 @@ body{
 
 .navbar-brand{
     margin-left: 1rem;
+    color: whitesmoke;
+}
+.navbar-brand:hover{
+    color: gray;
 }
 
-.navbar-nav .nav-item{
+.navbar-nav .nav-item .nav-link{
     margin-right: 2rem;
+    text-shadow: black 2px 3px 2px;
+    color: whitesmoke;
 }
+.navbar-nav .nav-item .nav-link:hover{
+    color: gray;
+}
+
 
 /*------------------------------SLIDER----------------------------*/
 
@@ -32,10 +42,9 @@ body{
     font-size: 3rem;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 1rem;
-    text-shadow: 10px, 10px, 2px  black;
-    -webkit-text-stroke: 0.1, black;
+    text-shadow: black 2px 3px 2px;
     border-radius: 3px;
-    border: 5px;
+    color: rgb(238, 236, 236);
 }
 #mainSlider .carousel-caption p{
     font-size: 1rem;
@@ -44,6 +53,7 @@ body{
     text-shadow: 10px, 10px, 2px  black;
     -webkit-text-stroke: 0.1, black;
     border-radius: 3px;
+    text-shadow: black 2px 3px 2px;
 }
 #main-btn{
     background-color: #65DAF9;
@@ -59,7 +69,6 @@ body{
 #main-btn:hover{
     background-color: transparent;
     border-color: #65DAF9;
-    color: black;
 }
 #mainSlider .carousel-indicators .active{
     background-color: #65DAF9;
@@ -68,6 +77,16 @@ body{
 #services{
     background-color: rgb(235, 231, 231);
 }
+.service-box1{
+    text-align: center;
+}
+.service-box1 p{
+    margin-bottom: 2rem;
+}
+.service-box1:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
 #titulo{
     font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
@@ -75,20 +94,49 @@ body{
     margin-top: 3rem;
     font-weight: 600;
 }
-.col-12 p{
-    font-size: 1rem;
-    color: #4e4e4e;
-    font-family: 'Open Sans', sans-serif;
-    margin-bottom: 3rem;
-}
-.col h4, p{
-    color: #4e4e4e;
-    font-size: 1rem;
-    font-family: 'Open Sans', sans-serif;
-}
-.col p{
-    margin-bottom: 3rem;
-}
+
 #vantagens{
     background-color: rgba(54,153,244, 0.7);
+}
+#vantagens .neide{
+    margin-top: 3rem;
+    color: whitesmoke;
+    font-size: 2rem;
+}
+#vantagens .sub-neide{
+    color: whitesmoke;
+}
+.service-box{
+    background-color: white;
+    text-align: center;
+    padding-top: 1rem;
+    margin-bottom: 30px;
+}
+.service-box:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+.app{
+    background-color: rgb(235, 231, 231);
+}
+.aplicativo .smartphone{
+    margin-top: 40px;
+    margin-left: 30px;
+    vertical-align: middle;
+    width: 300px;
+}
+.android{
+    width: 150px;
+}
+.android1{
+    width: 170px;
+}
+.aplicativo h4{
+    margin-top: 3rem;
+}
+.ajuda img{
+    height: 150px;
+}
+.ajuda h5{
+    margin-top: 3rem;
 }
