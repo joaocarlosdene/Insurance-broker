@@ -144,3 +144,16 @@ body{
 .ajuda h5{
     margin-top: 3rem;
 }
+/*------------ORÇAMENTO PAGE--------------*/
+
+.img-orcamento{
+    position: absolute;
+}
+.simulador{
+    position: relative;
+    padding-top: 4rem;
+    padding-bottom: 3.3rem;
+    background-color: #65d9f9a2;
+    color: white;
+    text-shadow: black 2px 3px 2px;
+}
