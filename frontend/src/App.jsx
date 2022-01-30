@@ -1,22 +1,15 @@
-
-import './App.css';
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css'
+import './App.css';
+import { Nav, Navbar, NavbarBrand, NavDropdown, NavLink } from "react-bootstrap";
+import Carousel from 'react-bootstrap/Carousel'
 
-import Logo from './components/logo/index'
-import Nav from './components/nav/index'
-import Main from './components/main/index'
-import Footer from './components/footer/index'
+import Header from "./components/header";
+import Slider from './components/slider'
 
 
-export default () =>{
-  return (
-    <div className="app">
-      <Logo/>
-      <Nav/>
-      <Main/>
-      <Footer/>
+export default props =>
+  <div className="app">
+      <Header/>
+      <Slider/>
   </div>
-  )
-}
-  
-

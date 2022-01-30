@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+Carousel{
+    height: 400px;
+}
+
+ .carousel-caption{
+    margin: 60px;
+}
+.carousel-caption h2{
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1rem;
+    text-shadow: black 2px 3px 2px;
+    border-radius: 3px;
+    color: rgb(238, 236, 236);
+}
+.carousel-caption p{
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 2rem;
+    text-shadow: 10px, 10px, 2px  black;
+    -webkit-text-stroke: 0.1, black;
+    border-radius: 3px;
+    text-shadow: black 2px 3px 2px;
+}
+#main-btn{
+    background-color: #65DAF9;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    border: 3px solid transparent;
+    transition: 0.5s;
+}
+#main-btn:hover{
+    background-color: transparent;
+    border-color: #65DAF9;
+}
+#mainSlider .carousel-indicators .active{
+    background-color: #65DAF9;
+}
