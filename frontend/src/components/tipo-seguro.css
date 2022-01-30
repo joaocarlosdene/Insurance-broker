@@ -1,0 +1,23 @@
+#services{
+    background-color: rgb(235, 231, 231);
+}
+#services p{
+    margin-bottom: 3rem;
+}
+.service-box1{
+    text-align: center;
+}
+.service-box1 p{
+    margin-bottom: 2rem;
+}
+.service-box1:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+#titulo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color: #4e4e4e;
+    margin-top: 3rem;
+    font-weight: 600;
+}

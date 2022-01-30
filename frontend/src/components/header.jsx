@@ -6,7 +6,7 @@ import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
 
 
 export default props =>
-    <Navbar bg="dark" variant="dark" expand="md">
+    <Navbar className="fixed-top" bg="dark" variant="dark" expand="md">
         <NavbarBrand className="logo" >
             <div>Prime Seguros</div>
         </NavbarBrand>
