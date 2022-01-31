@@ -1,0 +1,20 @@
+.vantagens{
+    background-color:rgba(54,153,244, 0.7)
+}
+#titulo1{
+    color: whitesmoke;
+    margin-top: 3rem;
+}
+.sub-titulo{
+    color: whitesmoke;
+    margin-bottom: 2rem;
+}
+.service-box2 {
+    background-color: #FEFEFE;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+.service-box2:hover{
+    opacity: 50%;
+    cursor: pointer;
+}

@@ -8,6 +8,7 @@ import Header from "./components/header";
 import Slider from './components/slider'
 import Tiposeguro from './components/tipo-seguro'
 import Parceiros from './components/parceiros'
+import Vantagens from './components/vantagens'
 
 
 export default props =>
@@ -16,4 +17,5 @@ export default props =>
       <Slider/>
       <Tiposeguro/>
       <Parceiros/>
+      <Vantagens/>
   </div>
