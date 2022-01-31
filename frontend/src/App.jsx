@@ -7,6 +7,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import Header from "./components/header";
 import Slider from './components/slider'
 import Tiposeguro from './components/tipo-seguro'
+import Parceiros from './components/parceiros'
 
 
 export default props =>
@@ -14,4 +15,5 @@ export default props =>
       <Header/>
       <Slider/>
       <Tiposeguro/>
+      <Parceiros/>
   </div>
