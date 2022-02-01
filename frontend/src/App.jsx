@@ -9,6 +9,7 @@ import Slider from './components/slider'
 import Tiposeguro from './components/tipo-seguro'
 import Parceiros from './components/parceiros'
 import Vantagens from './components/vantagens'
+import Ajuda from './components/ajuda'
 
 
 export default props =>
@@ -18,4 +19,5 @@ export default props =>
       <Tiposeguro/>
       <Parceiros/>
       <Vantagens/>
+      <Ajuda/>
   </div>
