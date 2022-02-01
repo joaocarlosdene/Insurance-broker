@@ -9,3 +9,10 @@
 .menu-right{
     justify-content: flex-end;
 }
+.hamburguer{
+    left: 1rem;
+}
+.NavDropdown{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}

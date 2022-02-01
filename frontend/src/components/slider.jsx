@@ -15,7 +15,7 @@ export default props =>
         style={{height: 480}}
         src={img1} alt="caminhao" />
     <Carousel.Caption>
-    <div class="carousel-caption d-none d-md-block">
+    <div class="carousel-caption  d-md-block">
         <h2>Seguro Frota</h2>
         <p>Proteger seu patrimônio é o melhor negócio!</p>
         <a href="pages/orcamento.html" id="main-btn">Faça seu orcamento</a>
@@ -31,7 +31,7 @@ export default props =>
     />
 
     <Carousel.Caption>
-    <div class="carousel-caption d-none d-md-block">
+    <div class="carousel-caption d-md-block">
         <h2>Seguro Frota</h2>
         <p>Proteger seu patrimônio é o melhor negócio!</p>
         <a href="pages/orcamento.html" id="main-btn">Faça seu orcamento</a>
@@ -47,7 +47,7 @@ export default props =>
     />
 
     <Carousel.Caption>
-    <div class="carousel-caption d-none d-md-block">
+    <div class="carousel-caption d-md-block">
         <h2>Seguro Frota</h2>
         <p>Proteger seu patrimônio é o melhor negócio!</p>
         <a href="pages/orcamento.html" id="main-btn">Faça seu orcamento</a>

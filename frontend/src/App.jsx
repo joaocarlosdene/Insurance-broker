@@ -17,7 +17,7 @@ export default props =>
       <Header/>
       <Slider/>
       <Tiposeguro/>
-      <Parceiros/>
       <Vantagens/>
       <Ajuda/>
+      <Parceiros/>
   </div>

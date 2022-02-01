@@ -13,7 +13,7 @@ export default props =>
                 <h2 id="titulo">Principais Parceiros </h2>
                 <p>trabalhamos com as melhores seguradoras do mercado <br/>
                     Confira:</p>
-                <img src={imgparceiros} alt="" />
+                <img className="w-100" src={imgparceiros} alt="" />
                 </Col>
             </Row>
         </Container>

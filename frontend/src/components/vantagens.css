@@ -13,6 +13,7 @@
     background-color: #FEFEFE;
     padding-top: 1rem;
     margin-bottom: 2rem;
+    justify-content: center;
 }
 .service-box2:hover{
     opacity: 50%;

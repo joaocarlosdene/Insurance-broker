@@ -20,7 +20,7 @@ export default props =>
                 </Col>
             </Row>
             <Row>
-                <Col className="col-12 col-md-4 text-center service-box2">
+                <Col className="col-12 col-md-4 text-center service-box2 ">
                     <img src={imgeconomia} alt="money" />
                     <h4>Seguro Automóvel</h4>
                     <p>Operamos com as maiores seguradoras do mercado</p>
