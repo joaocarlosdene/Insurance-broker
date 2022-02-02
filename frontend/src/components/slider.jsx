@@ -32,8 +32,8 @@ export default props =>
 
     <Carousel.Caption>
     <div class="carousel-caption d-md-block">
-        <h2>Seguro Frota</h2>
-        <p>Proteger seu patrimônio é o melhor negócio!</p>
+        <h2>Seguro Residencial</h2>
+        <p>Tranquilidade para sua família e seu patrimônio</p>
         <a href="pages/orcamento.html" id="main-btn">Faça seu orcamento</a>
     </div>
     </Carousel.Caption>
@@ -48,8 +48,8 @@ export default props =>
 
     <Carousel.Caption>
     <div class="carousel-caption d-md-block">
-        <h2>Seguro Frota</h2>
-        <p>Proteger seu patrimônio é o melhor negócio!</p>
+        <h2>Seguro Automóvel</h2>
+        <p>Seguros com as maiores Seguradoras do mercado!</p>
         <a href="pages/orcamento.html" id="main-btn">Faça seu orcamento</a>
     </div>
     </Carousel.Caption>

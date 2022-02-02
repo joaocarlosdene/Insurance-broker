@@ -19,7 +19,7 @@ export default props =>
                     <a href="#">Confira todas unidades</a>
                 </Col>
                 <Col className="col12 col-md-4">
-                    <img src={imgcontact} alt="" />
+                    <img className="img-ajuda" src={imgcontact} alt="" />
                 </Col>
             </Row>
         </Container>

@@ -10,6 +10,7 @@ import Tiposeguro from './components/tipo-seguro'
 import Parceiros from './components/parceiros'
 import Vantagens from './components/vantagens'
 import Ajuda from './components/ajuda'
+import Footer from './components/footer';
 
 
 export default props =>
@@ -20,4 +21,5 @@ export default props =>
       <Vantagens/>
       <Ajuda/>
       <Parceiros/>
+      <Footer/>
   </div>
